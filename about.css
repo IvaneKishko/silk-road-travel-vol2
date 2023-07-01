@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.services-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15); 
+    margin: 1em;
+    padding: 2em;
+    flex-basis: calc(40% - 2em); /* CHANGED: Decreased width */
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* CHANGED: Distribute content evenly from top to bottom */
+    align-items: center;
+    min-height: 300px; /* CHANGED: Decreased min-height */
+}
+
+.top-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-card h2,
+.services-card i,
+.services-card p {
+    text-align: center;
+}
+
+.services-card h2 {
+    font-weight: 400;
+}
+
+.services-card:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.services-card h2,
+.services-card i {
+    color: #d99e2f;
+}
+
+@media (max-width: 1200px) {
+    .services-card {
+        flex-basis: calc(50% - 2em);
+    }
+}
+
+@media (max-width: 900px) {
+    .services-card {
+        flex-basis: calc(100% - 2em);
+    }
+}
