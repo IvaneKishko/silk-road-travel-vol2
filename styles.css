@@ -555,7 +555,7 @@ a{
     overflow: hidden;  /* hide the overflow */
   }
   .header__image img {
-    width: 50%;   /* make the images 60% of the parent container's width */
+    width: 186px;   /* make the images 60% of the parent container's width */
     height: auto;
     margin-left: -25px;
   }

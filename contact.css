@@ -1,3 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+:root {
+  --primary-color: #d99e2f;
+  --primary-color-dark: #d99e2f;
+  --secondary-color: #fafcff;
+  --text-dark: #0d213f;
+  --text-light: #767268;
+  --extra-light: #ffffff;
+  --max-width: 1200px;
+}
+
+nav{
+  display: flex;
+  padding: 16px ;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo img{
+  width: 250px;
+}
+
+.nav__links{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
 .contact-header {
     display: flex;
     flex-wrap: wrap;
@@ -30,13 +59,26 @@
 }
 
 .btn {
-    margin-top: 1em;
-    padding: 1em;
-    background-color: #d99e2f;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: var(--extra-light);
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.3s;
     transition: background-color 0.3s;
+}
+
+.link a {
+  padding: 0 1rem;
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: var(--primary-color);
 }
 
 .btn:hover {
@@ -45,4 +87,30 @@
 
 .btn i {
     margin-right: 0.5em;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn a{
+  color: white;
+}
+
+.contact-card a{
+  margin-top: 5px;
+}
+
+@media (width < 710px) {
+  .nav__links{
+    display: none;
+  }
+  .contact-card{
+    flex-shrink: 0; 
+    min-width: 241px;
+  }
+  .nav__logo img{
+    width: 150px;
+  }
 }
