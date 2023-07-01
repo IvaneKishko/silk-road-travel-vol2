@@ -481,6 +481,21 @@ header {
   border-top: 1px solid var(--text-light);
 }
 
+/* MY CSS */
+
+header{
+  margin-top: 7rem;
+}
+
+#footer__nav__logo{
+  margin-bottom: 2rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
 @media (width < 1200px) {
   .header__image img:nth-child(1) {
     max-width: 300px;
@@ -536,20 +551,20 @@ header {
   .nav__logo{
     width: 160px;
   }
-}
+  .header__image {
+    overflow: hidden;  /* hide the overflow */
+  }
+  .header__image img {
+    width: 50%;   /* make the images 60% of the parent container's width */
+    height: auto;
+    margin-left: -25px;
+  }
 
+  header{
+    margin-top: -8rem;
+  }
 
-/* MY CSS */
-
-header{
-  margin-top: 7rem;
-}
-
-#footer__nav__logo{
-  margin-bottom: 2rem;
-}
-
-a{
-  text-decoration: none;
-  color: white;
+  .header__content{
+    margin-top: -5rem;
+  }
 }
