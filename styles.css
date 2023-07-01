@@ -567,4 +567,7 @@ a{
   .header__content{
     margin-top: -5rem;
   }
+  nav{
+    z-index: 1;
+  }
 }
