@@ -102,7 +102,7 @@ a{
   margin-top: 5px;
 }
 
-@media (width < 710px) {
+@media (width : 710px) {
   .nav__links{
     display: none;
   }

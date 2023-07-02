@@ -496,7 +496,9 @@ a{
   color: white;
 }
 
-@media (width < 1200px) {
+/* Corrected media queries */
+
+@media (max-width: 1200px) {
   .header__image img:nth-child(1) {
     max-width: 300px;
   }
@@ -506,7 +508,7 @@ a{
   }
 }
 
-@media (width < 900px) {
+@media (max-width: 900px) {
   .nav__links {
     display: none;
   }
@@ -527,7 +529,7 @@ a{
   }
 }
 
-@media (width < 600px) {
+@media (max-width: 600px) {
   .destination__grid {
     grid-template-columns: repeat(2, 1fr);
   }
