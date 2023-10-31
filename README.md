@@ -1,4 +1,4 @@
-![](https://github.com/IvaneKishko/ig-trading/blob/main/short-ig.gif)
+![](https://github.com/IvaneKishko/silkroadtravel.github.io/blob/main/silk-shortt.gif)
 
 # 🌐 Silk Road Travel Agencყ (WEB APP)
 This repository contains the source code and assets for the Silk Road Travel Agency website, which primarily focuses on travel destinations within Georgia.
