@@ -8,35 +8,36 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <title>丝绸之路旅游 | 格鲁吉亚</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="styles-eng.css" />
+    <title>Silk Road Trips | Georgia</title>
   </head>
   <body>
     <nav>
-      <div class="nav__logo"><a href="./index.html"><img src="./assets/logo.png" alt=""></a></div>
+      <div class="nav__logo"><a href="./index.html"><img src="./assets/logo.png" alt="" id="logo-white"></a></div>
       <ul class="nav__links">
-        <li class="link"><a href="#">首页</a></li>
-        <li class="link"><a href="./about.html">关于我们</a></li>
-        <button class="btn" id="contact-first"><a href="./contact.html">联系我们</a></button>
+        <li class="link"><a href="#">Home</a></li>
+        <li class="link"><a href="./about.html">About Us</a></li>
+        <button class="btn" id="contact-first"><a href="./contact.html">Contact Us</a></button>
+        <button class="btn" ><a href="./index-ch.html">中文</a></button>
       </ul>
-      <button class="btn" id="contact"><a href="./contact.html">联系我们</a></button>
+      <button class="btn" id="contact"><a href="./contact.html">Contact Us</a></button>
       <img src="./assets/hamburger.png" alt="menu hamburger" class="menu-hamburger">
     </nav>
     <header>
       <div class="section__container header__container">  
         <div class="header__image">
-          <img src="./assets//tbilisi/tbilisi-portrait.jpg" alt="header" />
+          <img src="./assets/tbilisi/tbilisi-portrait.jpg" alt="header" />
           <img src="./assets/kazbegi/81889803_2645018402400268_1176504641748205568_n.jpg" alt="header" />
         </div>
         <div class="header__content">
           <div>
-            <p class="sub__header">现在预订</p>
-            <h1>丝绸之路旅游 -<br />格鲁吉亚</h1>
-            <p class="section__subtitle">
-              我们诚邀您探索美丽的格鲁吉亚——它位于高加索，黑海和里海之间，历史文化丰富. 我们的旅游包含了历史遗迹、山区和美食。从首都第比利斯到不同的景点，由会说中文的导游带您了解格鲁吉亚。立即预订，开始难忘的冒险！
-            </p>
+            <p class="sub__header">BOOK NOW</p>
+            <h1 id="main__header">Silk Road Trips -<br />Georgia</h1>
+            <p class="section__subtitle" id="main__text">
+              We invite you to discover Georgia - located between the Caucasus, the Black Sea and the Caspian Sea, rich in history and culture. <br><br>Our tours include historical sites, mountains and gastronomy, you will be accompanied by local tour guide. Book now and start an unforgettable adventure!</p>
             <div class="action__btns">
-              <button class="btn"><a href="./contact.html">联系我们</a></button>
+              <button class="btn"><a href="./contact.html">Contact Us</a></button>
               <!-- <div class="story">
                 <div class="video__image">
                   <img src="assets/story.jpg" alt="story" />
@@ -53,9 +54,9 @@
     <section class="section__container destination__container">
       <div class="section__header">
         <div>
-          <h2 class="section__title">探索热门目的地</h2>
+          <h2 class="section__title">EXPLORE DESTINATIONS</h2>
           <p class="section__subtitle">
-            探索世界各地适合您且梦想的地方。 在这里您可以找到合适的目的地。
+            Explore places around the world that suit you and your dreams. Here you can find the right destination.
           </p>
         <!-- </div>
         <div class="destination__nav">
@@ -67,29 +68,29 @@
         <div class="destination__card">
           <img src="./assets/tbilisi/tbilisi-portrait-3.jpg" alt="destination" />
           <div class="destination__details">
-            <p class="destination__title">第比利斯</p>
-            <p class="destination__subtitle">格鲁吉亚</p>
+            <p class="destination__title">Tbilisi</p>
+            <p class="destination__subtitle">Georgia</p>
           </div>
         </div>
         <div class="destination__card">
           <img src="./assets/batumi/batumi-portrait-3.jpg " alt="destination" />
           <div class="destination__details">
-            <p class="destination__title">巴统</p>
-            <p class="destination__subtitle">格鲁吉亚</p>
+            <p class="destination__title">Batumi</p>
+            <p class="destination__subtitle">Georgia</p>
           </div>
         </div>
         <div class="destination__card">
           <img src="assets/kazbegi/kazbegi-portrait.jpg" alt="destination" />
           <div class="destination__details">
-            <p class="destination__title">库塔伊西</p>
-            <p class="destination__subtitle">格鲁吉亚</p>
+            <p class="destination__title">Kazbegi</p>
+            <p class="destination__subtitle">Georgia</p>
           </div>
         </div>
         <div class="destination__card">
           <img src="assets/kutaisi/kutaisi-portrait.jpg" alt="destination" />
           <div class="destination__details">
-            <p class="destination__title">卡斯别克</p>
-            <p class="destination__subtitle">格鲁吉亚</p>
+            <p class="destination__title">Kutaisi</p>
+            <p class="destination__subtitle">Georgia</p>
           </div>
         </div>
       </div>
@@ -97,20 +98,20 @@
 
     <section class="trip">
       <div class="section__container trip__container">
-        <h2 class="section__title">我们的项目</h2>
+        <h2 class="section__title">Our Destinations</h2>
         <p class="section__subtitle">
-          探索乔治亚州及其城市。 在这里您可以找到合适的目的地。
+          Explore Georgia. Here you can find the right destination.
         </p>
         <div class="trip__grid">
           <!-- Svaneti Card -->
           <div class="trip__card">
-              <img src="./assets/svaneti/mestia-big-crop.png" alt="trip" />
+              <img src="./assets/svaneti/mestia-big-crop.jpg" alt="trip" />
               <div class="trip__details">
-                  <p>十天行程</p>
+                  <p>10 Day Trip Plan</p>
                   <div class="rating"><i class="ri-star-fill"></i> 5.0</div>
                   <div class="booking__price">
                       <div class="price"><span></span></div>
-                      <a href="./assets//trips/10天行程.pdf" download class="btn">下载行程</a>
+                      <a href="./assets/trips/10天行程.pdf" download class="btn">Download</a>
                   </div>
               </div>
           </div>
@@ -118,11 +119,11 @@
           <div class="trip__card">
               <img src="./assets/svaneti/svaneti-big-crop.jpg" alt="trip" />
               <div class="trip__details">
-                  <p>六天行程</p>
+                  <p>6 Day Trip Plan</p>
                   <div class="rating"><i class="ri-star-fill"></i> 5.0</div>
                   <div class="booking__price">
                       <div class="price"><span></span></div>
-                      <a href="./assets//trips/6天行程.pdf" download class="btn">下载行程</a>
+                      <a href="./assets//trips/6天行程.pdf" download class="btn">Download</a>
                   </div>
               </div>
           </div>
@@ -130,11 +131,11 @@
           <div class="trip__card">
               <img src="./assets/gori/gori-big-crop.jpg" alt="trip" />
               <div class="trip__details">
-                  <p>三天行程</p>
+                  <p>3 Day Trip Plan</p>
                   <div class="rating"><i class="ri-star-fill"></i> 4.7</div>
                   <div class="booking__price">
                       <div class="price"><span></span></div>
-                      <a href="./assets//trips/3天行程.pdf" download class="btn">下载行程</a>
+                      <a href="./assets//trips/3天行程.pdf" download class="btn">Download</a>
                   </div>
               </div>
           </div>
@@ -159,13 +160,12 @@
         <div class="gallary__content">
           <div>
             <h2 class="section__title">
-              格鲁吉亚葡萄酒之乡
+              Country Of Wine
             </h2>
             <p class="section__subtitle">
-              探索格鲁吉亚的古老酿酒传统. 品尝精美的品种，游览乡村葡萄园，
-              并沉浸在丰富的历史文化中. 这是酒爱好者未被发现的天堂
+              Discover Georgia's ancient winemaking tradition. Taste exquisite varieties, tour rural vineyards, and immerse yourself in rich history and culture. This is an undiscovered paradise for wine lovers.
             </p>
-            <button class="btn"><a href="./contact.html">联系我们</a></button>
+            <button class="btn"><a href="./contact.html">Contact Us</a></button>
           </div>
         </div>
       </div>
@@ -174,16 +174,15 @@
     <section class="subscribe">
       <div class="section__container subscribe__container">
         <div class="subscribe__content">
-          <h2 class="section__title">订阅即可获得特别奖</h2>
+          <h2 class="section__title">Subscribe and get special offers</h2>
           <p class="section__subtitle">
-            探索格鲁吉亚州周边您合适且梦想的地方. 
-            在这里您可以找到合适的目的地.
+            Explore your dream places in Georgia. You can find the right destination here.
           </p>
         </div>
         <div class="subscribe__form">
           <form>
-            <input type="email" placeholder="您的邮件" />
-            <button class="btn" type="submit">发</button>
+            <input type="email" placeholder="Email" />
+            <button class="btn" type="submit">Send</button>
           </form>
         </div>
       </div>
@@ -192,30 +191,30 @@
     <footer class="footer">
       <div class="section__container footer__container">
         <div class="footer__col">
-          <div class="nav__logo" id="footer__nav__logo"><img src="./assets/logo-white.png" alt=""></div>
+          <div class="nav__logo" id="footer__nav__logo"><img src="./assets/logo-white.png" alt="" id="logo-blue"></div>
           <p>
-            探索世界各地适合您且梦想的地方。 在这里您可以找到合适的目的地。
+            Explore places around the world that suit you and your dreams. Here you can find the right destination.
           </p>
         </div>
         <div class="footer__col">
-          <h4>服务支持</h4>
-          <p>常问问题</p>
-          <p>条款和条件</p>
-          <p>隐私政策 </p>
-          <p>联系我们</p>
+          <h4>Service Support</h4>
+          <p>FAQ</p>
+          <p>Terms And Conditions</p>
+          <p>Privacy Policy </p>
+          <p>Contact Us</p>
         </div>
         <div class="footer__col">
-          <h4>地址</h4>
+          <h4>Information</h4>
           <p>
-            <span>地址:</span> 28 魯斯塔韋利大道, 第比利斯, 0108,
-            格鲁吉亚
+            <span>Address:</span> 28 Rustaveli, Tbilisi, 0108,
+            Georiga
           </p>
-          <p><span>电子邮件:</span> ivanekishko@silkroad-holding.com</p>
-          <p><span>电话号码:</span> +995 599958770</p>
+          <p><span>Email:</span> ivanekishko@silkroad-holding.com</p>
+          <p><span>Phone:</span> +995 599958770</p>
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2023 Web Design Mastery. All rights reserved.
+        Copyright © 2023 Silk Road Trips. All rights reserved.
       </div>
     </footer>
   </body>

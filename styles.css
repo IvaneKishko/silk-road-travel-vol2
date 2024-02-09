@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
 
 :root {
-  --primary-color: #d99e2f;
-  --primary-color-dark: #d99e2f;
+  --primary-color: #ffbc08;
+  --primary-color-dark: #ffbc08;
   --secondary-color: #fafcff;
   --text-dark: #0d213f;
   --text-light: #767268;
@@ -483,26 +483,32 @@ header {
 
 /* MY CSS */
 
-header{
+header {
   margin-top: 7rem;
 }
 
-#footer__nav__logo{
+#footer__nav__logo {
   margin-bottom: 2rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-nav .menu-hamburger{
+nav .menu-hamburger {
   display: none;
   width: 55px;
 }
 
-#contact-first{
+#contact-first {
   display: none;
+}
+
+/*  */
+#logo-white,
+#logo-blue {
+  width: 125px;
 }
 
 /* Corrected media queries */
@@ -535,22 +541,22 @@ nav .menu-hamburger{
 
   /*  */
 
-  nav{
+  nav {
     padding: 1rem;
     z-index: 1;
   }
 
-  nav .menu-hamburger{
+  nav .menu-hamburger {
     position: absolute;
     right: 0;
     display: block;
   }
 
-  #contact-first{
+  #contact-first {
     display: inline-block;
   }
 
-  #contact{
+  #contact {
     display: none;
   }
 
@@ -570,7 +576,7 @@ nav .menu-hamburger{
     font-size: 1.5em;
     margin-left: -100%;
   }
-  .nav__links.mobile-menu{
+  .nav__links.mobile-menu {
     margin-left: 0;
   }
 }
@@ -596,26 +602,41 @@ nav .menu-hamburger{
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .nav__logo{
+  .nav__logo {
     width: 160px;
   }
   .header__image {
-    overflow: hidden;  /* hide the overflow */
+    overflow: hidden; /* hide the overflow */
   }
   .header__image img {
-    width: 186px;   /* make the images 60% of the parent container's width */
+    width: 186px; /* make the images 60% of the parent container's width */
     height: auto;
     margin-left: -25px;
   }
 
-  header{
+  header {
     margin-top: -8rem;
   }
 
-  .header__content{
+  .header__content {
     margin-top: -5rem;
   }
-  nav{
+  nav {
     z-index: 1;
   }
+
+  #logo-white,
+  #logo-blue {
+    width: 100px;
+  }
+
+  .section__container {
+    margin-top: 100px;
+  }
+
+  .footer__container {
+    gap: 3rem;
+  }
 }
+
+/*  */

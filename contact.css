@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
 
 :root {
-  --primary-color: #d99e2f;
-  --primary-color-dark: #d99e2f;
+  --primary-color: #ffbc08;
+  --primary-color-dark: #ffbc08;
   --secondary-color: #fafcff;
   --text-dark: #0d213f;
   --text-light: #767268;
@@ -10,65 +10,65 @@
   --max-width: 1200px;
 }
 
-nav{
+nav {
   display: flex;
-  padding: 16px ;
-  justify-content: space-between;
+  padding: 16px;
+  justify-content: space-around;
   align-items: center;
 }
 
-.nav__logo img{
+.nav__logo img {
   width: 250px;
 }
 
-.nav__links{
+.nav__links {
   display: flex;
   list-style: none;
   gap: 10px;
 }
 
 .contact-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
 }
 
 .contact-card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-    margin: 1em;
-    padding: 2em;
-    flex-basis: calc(40% - 2em);
-    transition: transform 0.3s;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  margin: 1em;
+  padding: 2em;
+  flex-basis: calc(40% - 2em);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact-card h2 {
-    font-weight: 400;
-    color: #d99e2f;
+  font-weight: 400;
+  color: #d99e2f;
 }
 
 .contact-card:hover {
-    transform: scale(1.05); 
-    cursor: pointer;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .btn {
-    outline: none;
-    border: none;
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    color: var(--extra-light);
-    background-color: var(--primary-color);
-    border-radius: 5rem;
-    cursor: pointer;
-    transition: 0.3s;
-    transition: background-color 0.3s;
+  outline: none;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  color: var(--extra-light);
+  background-color: var(--primary-color);
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 
 .link a {
@@ -82,35 +82,40 @@ nav{
 }
 
 .btn:hover {
-    background-color: darkorange;
+  background-color: darkorange;
 }
 
 .btn i {
-    margin-right: 0.5em;
+  margin-right: 0.5em;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-.btn a{
+.btn a {
   color: white;
 }
 
-.contact-card a{
+.contact-card a {
   margin-top: 5px;
 }
 
 @media (max-width: 710px) {
-  .nav__links{
+  .nav__links {
     display: none;
   }
-  .contact-card{
-    flex-shrink: 0; 
+  .contact-card {
+    flex-shrink: 0;
     min-width: 241px;
   }
-  .nav__logo img{
+  .nav__logo img {
     width: 150px;
   }
+}
+
+#logo-white,
+#logo-blue {
+  width: 125px;
 }
