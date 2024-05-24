@@ -110,6 +110,9 @@ a {
     flex-shrink: 0;
     min-width: 241px;
   }
+  .contact-header {
+    padding: 0em;
+  }
   .nav__logo img {
     width: 150px;
   }
